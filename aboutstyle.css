@@ -1,0 +1,90 @@
+body{
+    background-color:rgb(8, 0, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #f5aa39;
+    color: white;
+}
+
+.banner{
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: #333;
+    height: 25%;
+    margin-top: 33px;
+    padding: 20px;
+    border-bottom: 8px solid #f5aa39;
+    background-image: url(./images/tiitus-saaristo-2mf7aNR7aFM-unsplash.jpg);
+    background-size: cover;
+}
+
+.banner h1{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+.content h1{
+    font-size: 45px;
+}
+
+.content h3, h2{
+    color: #00dbde;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 40px;
+    text-align: center;
+    padding-right: 13px;
+    padding-bottom: 1px;
+    border-top: 8px solid orange ;
+}
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+}
