@@ -68,6 +68,13 @@ body{
     text-align: center;
 }
 
+.pv{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: calc(0.5625 * 80ww);
+}
+
 footer{
     background-color: #333;
     color: white;
@@ -85,4 +92,3 @@ footer{
     position: sticky;
     top: 100%;
 }
-
