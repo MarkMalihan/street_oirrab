@@ -164,7 +164,7 @@ footer{
 }
 
 @media(max-width:700px){
-    .container{
+    .contaCT{
         grid-template-columns: 1fr;
         gap: 1rem;
         margin-top: 20rem !important;
