@@ -164,10 +164,10 @@ footer{
 }
 
 @media(max-width:700px){
-    .contaCT{
+    .contact{
         grid-template-columns: 1fr;
         gap: 1rem;
-        margin-top: 20rem !important;
+        margin-top: 3rem !important; /*20rem og*/
     }
     .map iframe{
         height: 400px;
