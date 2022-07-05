@@ -8,7 +8,7 @@ body{
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(29, 29, 29);
     position: fixed;
     top: 0;
     width: 100%;
@@ -38,7 +38,7 @@ body{
     overflow: hidden;
     text-align: center;
     display: block;   
-    background-color: #333;
+    background-color: rgb(29, 29, 29);
     height: 25%;
     color: white;
     margin-top: 33px;
@@ -139,7 +139,7 @@ body{
 }
 
 footer{
-    background-color: #333;
+    background-color: rgb(26, 26, 26);
     color: white;
     position: absolute;
     bottom: 0;

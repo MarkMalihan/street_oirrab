@@ -10,7 +10,7 @@ body{
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(29, 29, 29);
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,7 +40,7 @@ body{
     text-align: center;
     display: block;
     color: white;
-    background-color: #333;
+    background-color: rgb(29, 29, 29);
     margin-top: 33px;
     background-image: url(./images/jonathan-nguyen-XwO0raJ2dQM-unsplash.jpg);
     background-size: cover;
@@ -76,7 +76,7 @@ body{
 }
 
 footer{
-    background-color: #333;
+    background-color: rgb(26, 26, 26);
     color: white;
     position: absolute;
     bottom: 0;
