@@ -98,12 +98,13 @@ a:visited{
 }
 @media screen and (max-width: 900px) {
     .column {
-      width: 50%;
+      width: 85%;
+      margin: 0 auto;
     }
 }
 @media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+      width: 95%;
     }
 }
 
