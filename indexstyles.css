@@ -75,6 +75,33 @@ body{
     height: calc(0.5625 * 80ww);
 }
 
+.container h1{
+    margin: 20px;
+}
+
+.news{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    background:#2c2f48;
+    box-shadow: 0 0 1rem hsla(0, 0, 0, 16%);
+    overflow: hidden;
+}
+
+.news p, ul {
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+    font-size: large;
+}
+
+.news img{
+    width: 100%;
+}
+
 footer{
     background-color: rgb(26, 26, 26);
     color: white;
@@ -91,4 +118,22 @@ footer{
 .sticky-footer{
     position: sticky;
     top: 100%;
+}
+
+@media (max-width:964px){
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media (max-width:700px){
+    .news{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 3rem !important;
+    }
+    .news img{
+        height: 400px;
+    }
 }
