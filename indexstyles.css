@@ -94,6 +94,7 @@ body{
     background:#2c2f48;
     box-shadow: 0 0 1rem hsla(0, 0, 0, 16%);
     overflow: hidden;
+    margin-bottom: 25px;
 }
 
 .news p, ul {
@@ -139,6 +140,6 @@ footer{
         margin-top: 3rem !important;
     }
     .news img{
-        height: 400px;
+        height: 250p;
     }
 }
