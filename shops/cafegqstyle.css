@@ -95,8 +95,6 @@ a:visited{
     gap: 1.5rem;
     box-shadow: 0 0 1rem hsla(0, 0, 0, 16%);
     overflow: hidden;
-
-    
     border-style: solid;
     border-color:rgb(247, 153, 109);
     flex-direction: column;
@@ -107,14 +105,13 @@ a:visited{
 
 .menu-coffee{
     margin: 10px;
-    text-align: left;
     line-height: 2;
     
 }
 .menu-coffee h2{
     margin: 30px;
     color: rgb(247, 153, 109);
-    text-align: center;
+   
 }
 
 .menu-coffee ul{
@@ -129,10 +126,25 @@ a:visited{
 .menu-cold h2{
     margin: 30px;
     color: rgb(247, 153, 109);
-    text-align: center;
+    
 }
 
 .menu-cold ul{
+    list-style: none;
+}
+
+.menu-foods{
+    line-height: 2;
+    margin: 10px;
+    
+}
+.menu-foods h2{
+    margin: 30px;
+    color: rgb(247, 153, 109);
+    
+}
+
+.menu-foods ul{
     list-style: none;
 }
 
