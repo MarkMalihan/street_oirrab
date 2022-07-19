@@ -106,6 +106,7 @@ a:visited{
 }
 
 .menu-coffee{
+    margin: 10px;
     text-align: left;
     line-height: 2;
     
@@ -122,6 +123,7 @@ a:visited{
 
 .menu-cold{
     line-height: 2;
+    margin: 10px;
     
 }
 .menu-cold h2{
