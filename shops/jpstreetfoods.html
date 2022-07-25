@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JP Street Foods</title>
+        <link rel="stylesheet" href="jpstreetfoodstyle.css">
+    </head>
+</html>
+
+<body>
+    <div class="topnav">
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a class="active" href="../shops.html">Stalls</a>
+        <a  href="../index.html">Home</a>
+    </div>
+      
+    <div class="banner">
+        <h1>JP Street Foods</h1>
+        <p>Itadakisamu</p>
+    </div>
+        
+    <div class="content">
+        <h1>Menu</h1>
+        <div class="menu-box">
+            
+            <div class="takoyaki">
+                <h2>TAKOYAKI</h2>
+                <ul>
+                    <li>Regular/Original (4 pcs.) ..... Php 40</li>
+                    <li>Spicy (4 pcs.) ..... Php 45</li>
+                    <li>Bacon (4 pcs.) ..... Php 55</li>
+                    <li>Ham (4 pcs.) ..... Php 55</li>
+                    <li>Cheesebomb (4 pcs.) ..... Php 65</li>
+                    <li>Platter (20 pcs.) ..... Php 200</li>
+                </ul>
+            </div>
+
+            <div class="imagawayaki">
+                <h2>IMAGAWYAKi</h2>
+                <ul>
+                    <li>Chocolate ..... Php 25</li>
+                    <li>Cheese ..... Php 25</li>
+                    <li>Red Bean ..... Php 20</li>
+                    <li>Peanut ..... Php 25</li>
+                    <li>Custard ..... Php 20</li>
+                </ul> 
+            </div>
+
+            <div class="onigiri">
+                <h2>ONIGIRI</h2>
+                <ul>
+                    <li>Tuna Mayo ..... Php 50</li>
+                    <li>Chicken and vegetables ..... Php 55</li>
+                    <li>Pork Adobo ..... Php 55</li>
+                    <li>Pickled Plum ..... Php 50</li>
+                    <li>Spicy ..... Php 50</li>
+                </ul>
+            </div>
+
+            <div class="taiyaki">
+                <h2>TAIYAKI</h2>
+                <ul>
+                    <li>Custard Cream ..... Php 15</li>
+                    <li>Red Bean ..... Php 15</li>
+                    <li>Chocolate ..... Php 20</li>
+                    <li>Matcha ..... Php 20</li>
+                    <li>Sweet Potato ..... Php 15</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="../images/unnamed_0fee512e-0c46-4966-a2cb-719614098063_3000x.jpg" style="width: 1000px" height="500px">
+          <div class="text">Takoyaki</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="../images/bc0e2deea0ab48df82ce6c2f11bd8edb.jpg" style="width:1000px" height="500px">
+          <div class="text">Imagawayaki</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="../images/onigir.jpg" style="width:1000px" height="500px">
+          <div class="text">Onigiri</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="../images/2021-08-31.jpg" style="width:1000px" height="500px">
+            <div class="text">Taiyaki</div>
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+    </div>
+
+    <div class="contacts">
+        <h2>CONTACTS US</h2>
+        <h3>Email</h3>
+        <a>jpstreetfoods@gmail.com</a>
+        <br>
+        <h3>Phone Number</h3>
+        <a>+63 9** *** ****</a>
+        <br>
+        <h3>Facebook</h3>
+        <a>www.facebook.com/jpstreetfoods</a>
+        <h3>Instagram</h3>
+        <a>@jp_streetfoods</a>
+        <h3>Twitter</h3>
+        <a>www.twitter.com/jpstreetfoods</a>
+    </div>
+
+
+</body>
+
+<footer class="sticky-footer">
+    <p>Project in Technopreneurship<br></p>
+    <p>Mark Angelo Malihan BSIT 3-1</p>
+</footer>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
