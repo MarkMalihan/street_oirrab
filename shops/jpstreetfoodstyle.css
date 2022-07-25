@@ -314,8 +314,10 @@ img {vertical-align: middle;}
         margin: 0 auto;
         width: 90%;
     }
-    .mySlides img{
-       width: 50px;
+    .slideshow-container{
+        
+        margin: auto;
+        width: 90%;
     }
 }
 
