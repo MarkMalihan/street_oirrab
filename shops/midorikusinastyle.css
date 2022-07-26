@@ -46,7 +46,7 @@ body{
     margin-top: 33px;
     padding: 20px;
     border-bottom: 8px solid #f5aa39;
-    background-image: url(../images/ramon-kagie-2KpgIEUTavI-unsplash.jpg);
+    background-image: url(../images/louis-hansel-nkMC3klUIhU-unsplash.jpg);
     background-size: cover;
 }
 
@@ -105,7 +105,19 @@ a:visited{
     color: rgb(0, 0, 0);
 }
 
-.rice-bowl{
+.menu-box{
+    line-height: 2;
+}
+.menu-box h2{
+    margin: 30px;
+    color: black;
+}
+
+.menu-box ul{
+    list-style: none;
+}
+
+/*.rice-bowl{
     margin: 10px;
     line-height: 2;
     
@@ -148,7 +160,7 @@ a:visited{
 
 .juices ul{
     list-style: none;
-}
+}*/
 
 .contacts{
     margin: 30px;

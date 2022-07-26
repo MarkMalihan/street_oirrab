@@ -106,14 +106,26 @@ a:visited{
     color: rgb(255, 255, 255);
 }
 
-.short-order{
+.menu-box{
+    line-height: 2;
+}
+.menu-box h2{
+    margin: 30px;
+    color: rgb(204, 204, 204);
+}
+
+.menu-box ul{
+    list-style: none;
+}
+
+/*.short-order{
     margin: 10px;
     line-height: 2;
     
 }
 .short-order h2{
     margin: 30px;
-    color: rgb(204, 204, 204);
+    
    
 }
 
@@ -164,7 +176,7 @@ a:visited{
 
 .cocktails ul{
     list-style: none;
-}
+}*/
 
 .contacts{
     margin: 30px;

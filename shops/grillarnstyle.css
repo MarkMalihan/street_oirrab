@@ -106,14 +106,26 @@ a:visited{
     color: rgb(255, 255, 255);
 }
 
-.chicken-bbq{
+.menu-box{
+    line-height: 2;
+}
+.menu-box h2{
+    margin: 30px;
+    color: rgb(236, 168, 22);
+}
+
+.menu-box ul{
+    list-style: none;
+}
+
+/*.chicken-bbq{
     margin: 10px;
     line-height: 2;
     
 }
 .chicken-bbq h2{
     margin: 30px;
-    color: rgb(236, 168, 22);
+    
    
 }
 
@@ -164,7 +176,7 @@ a:visited{
 
 .rice ul{
     list-style: none;
-}
+}*/
 
 .contacts{
     margin: 30px;

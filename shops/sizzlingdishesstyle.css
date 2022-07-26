@@ -105,7 +105,19 @@ a:visited{
     color: rgb(255, 255, 255);
 }
 
-.with-rice{
+.menu-box{
+    line-height: 2;
+}
+.menu-box h2{
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.menu-box ul{
+    list-style: none;
+}
+
+/*.with-rice{
     line-height: 2;
     margin: 10px;
     
@@ -149,7 +161,7 @@ a:visited{
 
 .drinks ul{
     list-style: none;
-}
+}*/
 
 .contacts{
     margin: 30px;
