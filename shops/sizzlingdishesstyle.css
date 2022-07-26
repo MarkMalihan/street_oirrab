@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(235, 235, 235);
+    /*background-color: rgb(85, 50, 34);*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(../images/HDStockImages.com-zMkAwr.jpg);
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(29, 29, 29);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #f5aa39;
+    color: white;
+}
+
+.banner{   
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    height: 25%;
+    margin-top: 33px;
+    padding: 20px;
+    border-bottom: 8px solid #f5aa39;
+    background-image: url(../images/bady-abbas-g4PDf47MQY8-unsplash.jpg);
+    background-size: cover;
+}
+
+.banner h1{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: darkgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.content{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h1{
+    color: rgb(255, 255, 255); 
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.menu-box{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    box-shadow: 0 0 1rem hsla(0, 0, 0, 16%);
+    overflow: hidden;
+    border-style: solid;
+    border-color:rgb(255, 102, 0);
+    flex-direction: column;
+    box-sizing: border-box;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.with-rice{
+    line-height: 2;
+    margin: 10px;
+    
+}
+.with-rice h2{
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.with-rice ul{
+    list-style: none;
+}
+
+
+.ala-carte{
+    margin: 10px;
+    line-height: 2;
+    
+}
+.ala-carte h2{
+    margin: 30px;
+    color: rgb(255, 255, 255);
+   
+}
+
+.ala-carte ul{
+    list-style: none;
+}
+
+.drinks{
+    line-height: 2;
+    margin: 10px;
+    
+}
+.drinks h2{
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.drinks ul{
+    list-style: none;
+}
+
+.contacts{
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacts h2, h3{
+    color: #00dbde;
+}
+
+.midori-design img{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 70px;
+    text-align: center;
+    padding-right: 13px;
+    padding-bottom: 1px;
+    border-top: 8px solid orange ;
+}
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+}
+
+.footer-design{
+    position: sticky;
+    top: 100%;
+}
+
+@media (max-width: 964px){
+    .news-container h2{
+        text-align: center;
+    }
+}
+
+@media(max-width:964px){
+    .content{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+}
+
+@media(max-width:700px){
+    .menu-box{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 3rem !important; /*20rem og*/
+    }
+}
