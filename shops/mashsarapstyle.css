@@ -1,10 +1,10 @@
 body{
-    background-color:rgb(8, 0, 24);
+    background-color:rgb(17, 24, 0);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-image: url(../images/wooden-background.jpg);
+    background-image: url(../images/rm222-mind-22.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -46,7 +46,7 @@ body{
     margin-top: 33px;
     padding: 20px;
     border-bottom: 8px solid #f5aa39;
-    background-image: url(../images/rodrigo-pereira-YWCEn9Jr4gw-unsplash2.jpg);
+    background-image: url(../images/yash-bhardwaj-m3KCIEJ0Wog-unsplash.jpg);
     background-size: cover;
 }
 
@@ -103,7 +103,7 @@ html, body {
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 2.5em;
 }
@@ -144,7 +144,7 @@ html, body {
 }
 
 .btn-primary {
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #56CCF2;
     border: none;
     border-radius: .3em;
@@ -165,7 +165,7 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-bottom: 15px;
 }
 
@@ -181,7 +181,7 @@ html, body {
 
 .shop-item-price {
     flex-grow: 1;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .shop-items {
@@ -193,13 +193,13 @@ html, body {
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .cart-column {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0);
     margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -216,7 +216,7 @@ html, body {
 .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .cart-quantity {
@@ -224,7 +224,7 @@ html, body {
 }
 
 .cart-item-title {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -236,7 +236,7 @@ html, body {
 }
 
 .btn-danger {
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #EB5757;
     border: none;
     border-radius: .3em;
@@ -261,7 +261,7 @@ html, body {
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .cart-row:last-child .cart-column {
@@ -277,12 +277,12 @@ html, body {
 .cart-total-title {
     font-weight: bold;
     font-size: 1.5em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-right: 20px;
 }
 
 .cart-total-price {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.1em;
 }
 
@@ -294,7 +294,7 @@ html, body {
 
 .contacts{
     margin: 30px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -302,12 +302,12 @@ html, body {
 }
 
 .contacts h2, h3{
-    color: #00dbde;
+    color: #000000;
 }
 
 footer{
     background-color: rgb(26, 26, 26);
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
     width: 99%;
