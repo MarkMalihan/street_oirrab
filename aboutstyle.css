@@ -118,6 +118,13 @@ body{
     color: rgb(250, 250, 250);
 }
 
+.image-source ul{
+    list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
 .source-box ul{
     list-style: none;
 }

@@ -142,4 +142,7 @@ footer{
     .news img{
         height: 250p;
     }
+    .pv video{
+        height: 500px;
+    }
 }
